@@ -1,0 +1,13 @@
+# Keep it sorted
+
+/filezilla/config/*
+!/filezilla/config/filezilla.xml
+/go-shell/config/go-shell-remember-last.txt
+/IntelliJ-IDEA-Ultimate-portable/
+/keepass/Plugins/KeeAgent.plgx
+/maven/repository/
+/msys2/
+/nodejs/
+/notepadplusplus/
+/ruby/
+/yarn/

@@ -1,0 +1,40 @@
+[user]
+    useconfigonly = true
+#   name =
+#   email =
+
+[credential]
+    helper = manager
+
+[credentials]
+    domain = bitbucket.org
+    domain = github.com
+
+[credentials "bitbucket.org"]
+    name = Zaphod Beeblebrox
+    email = zaphod.beeblebrox@gov.galaxy
+
+[credentials "github.com"]
+    name = Zaphod Beeblebrox
+    email = 424242+zaphod.beeblebrox@users.noreply.github.com
+
+[alias]
+    set-user = !". D:/scoop/persist/git/git-set-user.sh" ""
+
+[core]
+    autocrlf = true
+    excludesfile = "D:/scoop/persist/git/.gitignore_global"
+
+[pretty]
+    simple = %C(bold yellow)%h %C(bold red)%cn %Creset%s %C(cyan)%ar%Creset
+
+[pull]
+   rebase = true
+
+[push]
+   default = simple
+
+[color "status"]
+    added = green bold
+    changed = yellow bold
+    untracked = red bold

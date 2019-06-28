@@ -1,0 +1,81 @@
+{
+  "buckets": [
+    "main",
+    "sboot@https://github.com/xfournet/scoot-sboot",
+    "extras",
+    "nonportable",
+    "java",
+    "jetbrains"
+  ],
+  "apps": [
+    "aria2",
+    "######## Core Scoop dependencies ########",
+    "7zip",
+    "git",
+    "innounp",
+    "sboot/sboot",
+    "",
+    "######## General tools ########",
+    "extras/sysinternals",
+    "vim",
+    "extras/hxd",
+    "extras/keepass",
+    "extras/keepass-plugin-keeagent",
+    "extras/putty",
+    "extras/filezilla",
+    "gpg",
+    "msys2",
+    "sboot/go-shell",
+    "",
+    "######## Dev tools ########",
+    "cloc",
+    "java/adopt11-hotspot",
+    "jetbrains/IntelliJ-IDEA-Ultimate-portable@2019.1.3-191.7479.19",
+    "maven",
+    "nodejs",
+    "ruby",
+    "yarn",
+    "extras/posh-git",
+    "sboot/docker-completion",
+    "",
+    "######## Cloud tools ########",
+    "aws",
+    "terraform",
+    ""
+  ],
+  "exts": [
+    {
+      "app": "7zip",
+      "parameters": {
+        "excludedExtensions": [
+          "iso",
+          "vhd"
+        ]
+      }
+    },
+    {
+      "app": "git",
+      "parameters": {
+        "overwriteUserGitconfig": false
+      }
+    },
+    {
+      "app": "hxd"
+    },
+    {
+      "app": "keepass"
+    },
+    {
+      "app": "notepadplusplus"
+    },
+    {
+      "app": "vim",
+      "parameters": {
+        "overwriteUserVimrc": false
+      }
+    },
+    {
+      "app": "winmerge"
+    }
+  ]
+}
