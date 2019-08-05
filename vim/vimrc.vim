@@ -1,6 +1,7 @@
 set nocompatible
 source $VIMRUNTIME/vimrc_example.vim
 
+set ff=unix
 set nobackup
 set noundofile
 set ts=4

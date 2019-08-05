@@ -1,8 +1,10 @@
 # Keep it sorted
 
+/cpu-z
 /filezilla/config/*
 !/filezilla/config/filezilla.xml
 /go-shell/config/go-shell-remember-last.txt
+/hwinfo
 /IntelliJ-IDEA-Ultimate-portable/
 /keepass/Plugins/KeeAgent.plgx
 /maven/repository/
