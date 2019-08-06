@@ -241,3 +241,16 @@ User_StickyKeys Disabled  # Enabled | Disabled
 
 # Tune touchpad gesture
 User_TouchPad Simple  # Default | Simple
+
+# Same as Settings -> Devices -> Typing -> Advanced keyboard settings -> Input language hot keys -> Hot keys for input languages
+# See https://winaero.com/blog/change-hotkeys-switch-keyboard-layout-windows-10
+User_LanguageHotKeys Disabled  # Enabled | Disabled
+
+# Same as OneDrive -> Settings -> Settings -> Start OneDrive automatically when I sign in to Windows
+User_OneDrive_AutoStart Disabled  # Enabled | Disabled
+
+# Same as Intel Graphics Settings -> Preferences
+User_IntelGFXTray Hide  # Show | Hide
+
+# Same as Intel Graphics Settings -> Hot Key Manager -> Manage Hot Keys
+User_IntelGFXHotKeys Disabled  # Enabled | Disabled
