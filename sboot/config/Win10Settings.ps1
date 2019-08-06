@@ -8,6 +8,9 @@ Machine_ComputerName $env:ComputerName # $env:ComputerName | "<ComputerName>"
 # See https://www.tenforums.com/performance-maintenance/92329-how-disable-windows-script-host.html
 Machine_WindowsScriptHost Disabled  # Enabled | Disabled
 
+# Same as Settings -> Update & Security -> Windows Security -> Virus & threat protection -> Virus & threat protection settings -> Manage settings -> Exclusion -> Add or remove exclusion
+EnsureWindowsDefenderExclusion "D:\"
+
 # Same as Control Panel -> System -> Advanced system settings -> Startup and Recovery -> Settings... -> System failure -> Automatically restart
 # See https://www.tenforums.com/performance-maintenance/92329-how-disable-windows-script-host.html
 Machine_AutoRebootOnCrash Disabled  # Enabled | Disabled
@@ -30,7 +33,7 @@ Machine_Cortana Disabled  # Enabled | Disabled
 # See https://www.tenforums.com/tutorials/117755-enable-disable-security-questions-local-accounts-windows-10-a.html
 Machine_LocalAccountSecurityQuestions Disabled  # Enabled | Disabled
 
-# Same as Settings -> Update & Security -> Delivery Optimization -> Allow downloads from other PCs
+# Same as Settings -> Update & Security -> Windows Update -> Advanced options -> Delivery Optimization -> Allow downloads from other PCs
 # See https://www.tenforums.com/tutorials/105329-specify-how-windows-store-app-updates-downloaded-windows-10-a.html
 Machine_WindowsUpdateP2PDelivery Disabled  # LocalNetworkOnly | LocalNetworkAndInternet | Disabled
 
