@@ -110,8 +110,12 @@ Machine_Explorer_SpecialFolder Videos Hide  # Show | Hide
 # See https://social.technet.microsoft.com/wiki/contents/articles/51546.windows-10-build-1803-registry-tweak-to-disable-microsoft-edge-shortcut-creation-on-desktop.aspx
 Machine_EdgeDesktopLink Hide  # Show | Hide
 
+# Control Fax printer
+# Same as Settings -> Devices -> Printers & scanners -> Fax
 Machine_FaxPrinter Uninstall  # Install | Uninstall
 
+# Control Windows Features
+# Same as Control Panel -> Programs and Features -> Turn Windows features on or off
 EnsureWindowsFeature @{
     "TelnetClient" = "Enabled"
     "Microsoft-Hyper-V-All" = "Enabled"
