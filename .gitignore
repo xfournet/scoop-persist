@@ -1,15 +1,26 @@
 # Keep it sorted
 
-/cpu-z
+/arduino-portable/
+/cpu-z/
 /filezilla/config/*
 !/filezilla/config/filezilla.xml
 /go-shell/config/go-shell-remember-last.txt
-/hwinfo
+/hwinfo/
 /IntelliJ-IDEA-Ultimate-portable/
+/irfanview/
 /keepass/Plugins/KeeAgent.plgx
+/libreoffice-stable/
 /maven/repository/
 /msys2/
 /nodejs/
 /notepadplusplus/
+/paint.net/
+/recuva/
 /ruby/
+/rufus/
+/stunnel/
+/ventoy/log.txt
+/vlc/
+/WebStorm-portable/
+/wireshark/
 /yarn/

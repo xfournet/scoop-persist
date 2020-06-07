@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<FileZilla3 version="3.43.0" platform="windows">
+<FileZilla3 version="3.48.1" platform="windows">
 	<Settings>
 		<Setting name="Use Pasv mode">1</Setting>
 		<Setting name="Limit local ports">0</Setting>
@@ -52,7 +52,7 @@
 		<Setting name="Cache TTL">600</Setting>
 		<Setting name="Number of Transfers">2</Setting>
 		<Setting name="Ascii Binary mode">2</Setting>
-		<Setting name="Auto Ascii files">am|asp|bat|c|cfm|cgi|conf|cpp|css|dhtml|diz|h|hpp|htm|html|in|inc|java|js|jsp|lua|m4|mak|md5|nfo|nsi|pas|patch|pem|php|phtml|pl|po|py|qmail|sh|sha1|sha256|sha512|shtml|sql|svg|tcl|tpl|txt|vbs|xhtml|xml|xrc</Setting>
+		<Setting name="Auto Ascii files">ac|am|asp|bat|c|cfm|cgi|conf|cpp|css|dhtml|diff|diz|h|hpp|htm|html|in|inc|java|js|jsp|lua|m4|mak|md5|nfo|nsh|nsi|pas|patch|pem|php|phtml|pl|po|pot|py|qmail|sh|sha1|sha256|sha512|shtml|sql|svg|tcl|tpl|txt|vbs|xhtml|xml|xrc</Setting>
 		<Setting name="Auto Ascii no extension">1</Setting>
 		<Setting name="Auto Ascii dotfiles">1</Setting>
 		<Setting name="Language Code" />
@@ -68,7 +68,6 @@
 		<Setting name="File exists action download">0</Setting>
 		<Setting name="File exists action upload">0</Setting>
 		<Setting name="Allow ascii resume">0</Setting>
-		<Setting name="Greeting version">3.43.0</Setting>
 		<Setting name="Greeting resources" />
 		<Setting name="Onetime Dialogs" />
 		<Setting name="Show Tree Local">1</Setting>
@@ -136,5 +135,6 @@
 		<Setting name="Disable update footer">0</Setting>
 		<Setting name="Master password encryptor" />
 		<Setting name="Kiosk mode">0</Setting>
+		<Setting name="Greeting version">3.48.1</Setting>
 	</Settings>
 </FileZilla3>

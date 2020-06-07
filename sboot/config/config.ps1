@@ -5,16 +5,6 @@ sboot_cfg -Name "ScoopConfig" -Default -Script {
     EnsureScoopConfig -ScoopConfig (Get-Content "$PSScriptRoot\ScoopConfig.json")
 }
 
-sboot_cfg -Name "ConCfg" -Script {
-    $concfgFile = "$PSScriptRoot\concfg.json"
-    if (Test-Path -LiteralPath $concfgFile) {
-        DoUpdate "Apply '$concfgFile' file" {
-            concfg clean
-            concfg import -n $concfgFile
-        }
-    }
-}
-
 sboot_cfg -Name "EnvVars" -Default
 
 sboot_cfg -Name "SbootProfiles" -Default -Script {
