@@ -22,5 +22,7 @@
 /ventoy/log.txt
 /vlc/
 /WebStorm-portable/
+/windows-terminal/nodejs/babel-node-cli/*
+!/windows-terminal/nodejs/babel-node-cli/package.json
 /wireshark/
 /yarn/

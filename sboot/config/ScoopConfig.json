@@ -19,7 +19,7 @@
     "sboot/sboot",
     "",
     "######## General tools ########",
-    "windows-terminal",
+    "extras/windows-terminal",
     "gsudo",
     "sboot/go-shell",
     "figlet",
@@ -128,6 +128,9 @@
     },
     {
       "app": "vim"
+    },
+    {
+      "app": "windows-terminal"
     },
     {
       "app": "winmerge"
