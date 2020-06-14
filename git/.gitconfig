@@ -18,6 +18,9 @@
     name = Zaphod Beeblebrox
     email = 424242+zaphod.beeblebrox@users.noreply.github.com
 
+[gpg]
+    program = D:/scoop/apps/gpg/current/bin/gpg.exe
+
 [alias]
     set-user = !". D:/scoop/persist/git/git-set-user.sh" ""
 

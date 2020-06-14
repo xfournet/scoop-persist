@@ -5,6 +5,7 @@
 /filezilla/config/*
 !/filezilla/config/filezilla.xml
 /go-shell/config/go-shell-remember-last.txt
+/gpg/
 /hwinfo/
 /IntelliJ-IDEA-Ultimate-portable/
 /irfanview/
