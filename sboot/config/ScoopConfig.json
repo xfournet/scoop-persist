@@ -57,6 +57,7 @@
     "",
     "######## Dev tools ########",
     "extras/posh-git",
+    "extras/oh-my-posh",
     "sboot/docker-completion",
     "cloc",
     "graphviz",
