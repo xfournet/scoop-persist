@@ -32,7 +32,7 @@
         "defaults":
         {
             "colorScheme" : "One Half Dark",
-            "fontFace": "Cascadia Mono PL",
+            "fontFace": "CaskaydiaCove NF",
             "startingDirectory" : "D:\\sources"
         },
         "list":

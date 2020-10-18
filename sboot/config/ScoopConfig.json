@@ -54,6 +54,7 @@
     "ghostscript",
     "extras/windows-iso-downloader",
     "nerd-fonts/Cascadia-Code",
+    "nerd-fonts/CascadiaCode-NF",
     "",
     "######## Dev tools ########",
     "extras/posh-git",
