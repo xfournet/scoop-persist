@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<FileZilla3 version="3.48.1" platform="windows">
+<FileZilla3 version="3.53.0" platform="windows">
 	<Settings>
 		<Setting name="Use Pasv mode">1</Setting>
 		<Setting name="Limit local ports">0</Setting>

@@ -1,0 +1,9 @@
+{
+  "name": "babel-node-cli",
+  "private": true,
+  "dependencies": {
+    "@babel/core": "latest",
+    "@babel/node": "latest",
+    "@babel/preset-env": "latest"
+  }
+}

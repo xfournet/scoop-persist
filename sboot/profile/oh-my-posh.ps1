@@ -1,3 +1,3 @@
-Import-Module posh-git
-Import-Module oh-my-posh
-Set-Theme Paradox
+if ($env:WT_Session) {
+  Invoke-Expression (oh-my-posh --init --shell pwsh --config "$(scoop prefix oh-my-posh3)/themes/default.omp.json")
+}

@@ -64,14 +64,21 @@
             {
                 "name": "NodeJS",
                 "commandline": "%SCOOP%\\apps\\nodejs\\current\\node.exe",
-                "icon": "%SCOOP%\\persist\\windows-terminal\\nodejs\\node.ico",
+                "icon": "%SCOOP%\\persist\\windows-terminal\\profiles\\nodejs.png",
                 "hidden": false
             },
             {
                 "name": "Babel Node",
-                "startingDirectory" : "%SCOOP%\\persist\\windows-terminal\\nodejs\\babel-node-cli",
+                "startingDirectory" : "%SCOOP%\\persist\\windows-terminal\\profiles\\babel-node-cli",
                 "commandline": "%SCOOP%\\apps\\nodejs\\current\\node.exe node_modules\\@babel\\node\\bin\\babel-node.js --presets @babel/env",
-                "icon": "%SCOOP%\\persist\\windows-terminal\\nodejs\\babel.png",
+                "icon": "%SCOOP%\\persist\\windows-terminal\\profiles\\babeljs.png",
+                "hidden": false
+            },
+            {
+                "name": "YOOI Shell",
+                "startingDirectory" : "D:\\sources\\yooi\\yooi\\yooi-tools",
+                "commandline": "node ..\\node_modules\\@babel\\node\\bin\\babel-node.js -- src/shell.js --working-directory D:\\dumps",
+                "icon": "%SCOOP%\\persist\\windows-terminal\\profiles\\yooi.ico",
                 "hidden": false
             },
             {

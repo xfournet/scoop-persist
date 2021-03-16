@@ -4,7 +4,7 @@
 #   email =
 
 [credential]
-    helper = manager
+    helper = manager-core
 
 [credentials]
     domain = bitbucket.org
