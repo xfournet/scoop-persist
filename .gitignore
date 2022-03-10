@@ -1,16 +1,20 @@
 # Keep it sorted
 
-/arduino-portable/
+/arduino/
 /cpu-z/
 /filezilla/config/*
 !/filezilla/config/filezilla.xml
+/firefox/
+/firefox-esr/
+/ghidra/
 /go-shell/config/go-shell-remember-last.txt
+/googlechrome/
 /gpg/
 /hwinfo/
 /IntelliJ-IDEA-Ultimate-portable/
 /irfanview/
 /keepass/Plugins/KeeAgent.plgx
-/libreoffice-stable/
+/libreoffice/
 /maven/repository/
 /msys2/
 /nginx/
@@ -19,10 +23,12 @@
 /oh-my-posh3/themes/*
 !/oh-my-posh3/themes/default.omp.json
 /paint.net/
+/python/
 /recuva/
 /ruby/
 /rufus/
 /rustup/
+/screentogif/
 /stunnel/
 /telegram/
 /ventoy/log.txt
