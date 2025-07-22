@@ -6,6 +6,9 @@
 [credential]
     helper = manager
 
+[credential "helperselector"]
+	selected = manager
+
 [credentials]
     domain = bitbucket.org
     domain = github.com
